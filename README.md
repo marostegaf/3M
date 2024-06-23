@@ -19,24 +19,6 @@
   "image": "http://link-da-imagem.com/imagem.jpg"
 }
 ```
-
-```bash
-├── img/
-│ └── logo.png
-├── script/
-│ ├── ConectaAPI.js
-│ ├── CriarProduto.js
-│ ├── ExcluirProduto.js
-│ └── MostrarProduto.js
-├── styles/
-│ └── style.css
-├── README.md
-├── adicionar-produto.html
-├── db.json
-├── index.html
-├── package-lock.json
-└── package.json
-```
 ###### Você pode `Adicionar` ou `Remover` um produto que todos poderam ver!
 
 ## 🧑🏻‍💻 Tecnologias
