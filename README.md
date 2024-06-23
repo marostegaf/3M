@@ -14,8 +14,8 @@
 ```bash
 {
   "nome": "Moletom Branco",
-  "price": 89,
-  "image": "http://link-da-imagem.com/imagem.jpg"
+  "preco": 89,
+  "imagem": "http://link-da-imagem.com/imagem.jpg"
 }
 ```
 ###### Você pode `Adicionar` ou `Remover` um produto que todos poderam ver!
