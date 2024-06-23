@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script/CriarProduto.js" defer type="module"></script>
+    <title>Adicionar Produto</title>
+</head>
+<body class="adicionar-produto">
+    <header class="container-header-adicionar">
+        <div>
+            <a class="voltar-inicio" href="index.html">
+                <i class="fas fa-arrow-left"></i>
+                Voltar ao Inicio
+            </a>
+        </div>
+    </header>
+
+    <section class="container-formulario">
+            <h2>Adicione um produto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <label for="nome">Nome</label>
+                    <input class="campo-preencher" name="nome" type="text" required maxlength="30" placeholder="Camisa Branca" data-nome>
+                </fieldset>
+
+                <fieldset>
+                    <label for="preco">Preço</label>
+                    <input class="campo-preencher" name="preco" type="number" required placeholder="90" max="9999" data-preco>
+                </fieldset>
+
+                <fieldset>
+                    <label for="imagem">Imagem</label>
+                    <input class="campo-preencher" name="imagem" type="url" required placeholder="URL da Imagem" data-imagem>
+                </fieldset>
+
+                <input value="Enviar" class="botao-enviar" type="submit">
+            </form>
+    </section>
+    <script src="script/adicionar.js"></script>
+</body>

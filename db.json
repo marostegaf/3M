@@ -1,0 +1,70 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Moletom Cinza Claro",
+      "preco": 89,
+      "imagem": "https://img.lojasrenner.com.br/item/623432352/large/3.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Blusão Em Moletom Forrado",
+      "preco": 139,
+      "imagem": "https://img.lojasrenner.com.br/item/879672659/large/3.jpg"
+    },
+    {
+      "id": "f900",
+      "nome": "Camiseta Comfort Básica",
+      "preco": "89",
+      "imagem": "https://img.lojasrenner.com.br/item/549243106/large/3.jpg"
+    },
+    {
+      "id": "3efe",
+      "nome": "Camisa Em Flanela Com Gola Lapela",
+      "preco": "139",
+      "imagem": "https://img.lojasrenner.com.br/item/883294793/large/3.jpg"
+    },
+    {
+      "id": "bc49",
+      "nome": "Blusão Fechado Em Moletom",
+      "preco": "75",
+      "imagem": "https://img.lojasrenner.com.br/item/633058771/large/3.jpg"
+    },
+    {
+      "id": "0b0f",
+      "nome": "Blusão Fechado Básico",
+      "preco": "59",
+      "imagem": "https://img.lojasrenner.com.br/item/879734910/large/3.jpg"
+    },
+    {
+      "id": "6fdf",
+      "nome": "Blusão Fechado Em Moletom",
+      "preco": "59",
+      "imagem": "https://img.lojasrenner.com.br/item/796268183/large/3.jpg"
+    },
+    {
+      "id": "7747",
+      "nome": "Blusão Regular Fechado",
+      "preco": "105",
+      "imagem": "https://img.lojasrenner.com.br/item/637223851/large/3.jpg"
+    },
+    {
+      "id": "5107",
+      "nome": "Camisa De Pijama",
+      "preco": "19",
+      "imagem": "https://img.lojasrenner.com.br/item/927270815/large/3.jpg"
+    },
+    {
+      "id": "00d4",
+      "nome": "Pijama Curto Em Malha",
+      "preco": "39",
+      "imagem": "https://img.lojasrenner.com.br/item/926447885/large/3.jpg"
+    },
+    {
+      "id": "dcf0",
+      "nome": "Blusa Regata De Pijama",
+      "preco": "59",
+      "imagem": "https://img.lojasrenner.com.br/item/927349347/large/3.jpg"
+    }
+  ]
+}
