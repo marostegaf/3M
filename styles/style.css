@@ -68,15 +68,20 @@ header {
 /* NAV */
 
 .selecao {
-    padding: 15px 20px;
+    padding: 15px 25px;
     background-image: linear-gradient(to left, var(--cinza-escuro), var(--cinza-claro), var(--cinza-claro));
 }
 
 .selecao ul {
     display: flex;
-    flex-direction: row;
-    word-wrap: wrap;
+    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     gap: 25px;
+}
+
+.selecao ul::-webkit-scrollbar {
+    height: 0;
 }
 
 .selecao ul li {
@@ -95,11 +100,16 @@ header {
 .cards-adicionar {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin: 30px 25px;
+    gap: 40px;
+    margin: 30px 35px;
 }
 
 /* CARDS */
+
+.cards-adicionar {
+    display: flex;
+    justify-content: center;
+}
 
 .cards {
     margin-top: 10px;
@@ -109,8 +119,8 @@ header {
 }
 
 .cards img {
-    max-width: 225px;
-    min-height: 260px;;
+    max-width: 245px;
+    min-height: 300px;;
     position: relative;
 }
 
@@ -126,7 +136,7 @@ header {
 .delete-icon {
     position: absolute;
     top: 10px;
-    right: 25px;
+    right: 15px;
     color: var(--cinza-claro);
     cursor: pointer;
     transition: 0.5s;
@@ -238,4 +248,29 @@ header {
     color: var(--cinza-escuro);
     background-color: var(--branco);
     border: 2px solid var(--cinza-escuro);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+    header {
+        padding: 15px 10px;
+    }
+
+    .logo img {
+        width: 45px;
+    }
+    
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .container-header-adicionar {
+        padding: 25px 10px;
+    }
+
+    .container-formulario h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
 }
